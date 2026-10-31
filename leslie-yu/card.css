@@ -1,7 +1,7 @@
 *{box-sizing:border-box;margin:0}
 body{background:#e9e9e9;font-family:"Open Sans","Segoe UI",Roboto,Arial,"Noto Sans TC","Noto Sans CJK TC","PingFang TC",sans-serif;color:#2b2b2b}
 .wrap{max-width:430px;margin:auto;min-height:100vh;background:#f4f4f4}
-.hero{background:#FC001A;color:#fff;text-align:center;padding:18px 22px 64px}
+.hero{background:#E51C24;color:#fff;text-align:center;padding:18px 22px 64px}
 .topline{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:600;letter-spacing:.18em}
 .mini{height:20px;width:auto}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;margin-right:6px;vertical-align:1px}
 .avatar{width:112px;height:112px;margin:28px auto 14px;border-radius:50%;padding:3px;background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.2)}
@@ -12,13 +12,13 @@ h1{font-size:28px;font-weight:700;letter-spacing:.08em}.en{display:block;font-si
 .sheet{position:relative;margin:-40px 14px 0;background:#fff;border-radius:20px;padding:18px 16px 16px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px;border-radius:14px;color:#fff;text-decoration:none;font-size:16px;font-weight:700;margin-bottom:10px}
 .btn svg{width:22px;height:22px;flex:none}
-.btn-line{background:#06C755}.btn-save{background:#FC001A}.btn-save .ic{color:#fff}
+.btn-line{background:#06C755}.btn-save{background:#E51C24}.btn-save .ic{color:#fff}
 .quick{display:flex;gap:8px;margin:6px 0 14px}
 .quick a,.quick button{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 4px;border:1px solid #e5e5e5;border-radius:14px;background:#fff;color:#2b2b2b;text-decoration:none;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
-.quick svg{width:24px;height:24px}.quick .ic{color:#FC001A}
+.quick svg{width:24px;height:24px}.quick .ic{color:#E51C24}
 .rows{list-style:none;padding:0;border-top:1px solid #eee}
 .rows li>a,.rows li>div{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid #eee;color:inherit;text-decoration:none}
-.ri{width:38px;height:38px;border-radius:12px;background:#fff0f1;display:flex;align-items:center;justify-content:center;flex:none}.ri svg{width:20px;height:20px;color:#FC001A}
+.ri{width:38px;height:38px;border-radius:12px;background:#fdecec;display:flex;align-items:center;justify-content:center;flex:none}.ri svg{width:20px;height:20px;color:#E51C24}
 .rows b{display:block;font-size:12px;color:#888;font-weight:600}.v{font-size:15px;color:#2b2b2b}
 .share{display:block;width:100%;margin-top:14px;padding:13px;border:1px dashed #ccc;border-radius:14px;background:none;font:inherit;font-size:14px;color:#555;cursor:pointer}
 footer{text-align:center;font-size:11px;letter-spacing:.3em;color:#aaa;padding:20px 0 28px}
@@ -29,7 +29,7 @@ footer{text-align:center;font-size:11px;letter-spacing:.3em;color:#aaa;padding:2
 /* 照片左、姓名右（A 的排版） */
 .hero{padding-bottom:62px}
 .idrow{display:flex;align-items:center;gap:24px;margin:26px 2px 0;text-align:left}
-.avatar{flex:0 0 130px;width:130px;height:130px;margin:0;padding:0;background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.22),0 0 0 3px #fff;border:3px solid #FC001A}
+.avatar{flex:0 0 130px;width:130px;height:130px;margin:0;padding:0;background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.22),0 0 0 3px #fff;border:3px solid #E51C24}
 .who{flex:1;min-width:0}
 .who h1{font-size:26px;letter-spacing:0;line-height:1.15;white-space:nowrap}
 .zh{font-size:18px;font-weight:700;letter-spacing:.14em;margin-top:2px}
