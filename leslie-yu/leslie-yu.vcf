@@ -1,7 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
 N:Yu;Leslie;;;
-FN:Leslie Yu
+FN;CHARSET=UTF-8:Leslie Yu 余宣魁
+NICKNAME;CHARSET=UTF-8:余宣魁
 ORG:Sensofar Asia
 TITLE:Managing Partner
 TEL;TYPE=CELL,VOICE:+886 988 106 002
