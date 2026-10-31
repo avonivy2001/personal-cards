@@ -41,3 +41,4 @@ body{font-family:"Open Sans","Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans
 .hero{padding-bottom:50px}
 .id{align-items:flex-start;margin-top:-42px}
 .who{padding-top:50px}
+.btn.save b+b{margin-top:1px}
