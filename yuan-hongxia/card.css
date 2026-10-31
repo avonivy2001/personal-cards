@@ -48,3 +48,10 @@ h1{font-size:34px;letter-spacing:.2em;padding-left:0;white-space:nowrap}
 h1{font-size:30px;letter-spacing:.18em}.org{font-size:16px;letter-spacing:.2em;margin-top:10px}
 .role{font-size:12px;letter-spacing:.02em}.slogan{font-size:12px;letter-spacing:.03em}
 .studio{font-size:9px;letter-spacing:.26em}.studio span{width:12px}
+/* v6 文字組縮小約 22% */
+.hero{padding:26px 34px 26px 22px}
+h1{font-size:24px;letter-spacing:.16em}
+.role{font-size:10.5px;margin-top:6px}
+.org{font-size:13px;letter-spacing:.18em;margin-top:8px}
+.studio{font-size:10px;letter-spacing:.14em;letter-spacing:.24em;margin-top:4px}.studio span{width:10px}
+.slogan{font-size:10.5px;margin-top:9px}
