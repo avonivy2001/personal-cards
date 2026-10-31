@@ -1,12 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
 N:Yu;Leslie;;;
-FN;CHARSET=UTF-8:Leslie Yu 余宣魁
-NICKNAME;CHARSET=UTF-8:余宣魁
+FN:Leslie Yu 余宣魁
+NICKNAME:余宣魁
 ORG:Sensofar Asia
 TITLE:Managing Partner
-TEL;TYPE=CELL,VOICE:+886 988 106 002
-TEL;TYPE=WORK,VOICE:+86 183 2115 2440
+item1.TEL;type=CELL;type=VOICE;type=pref:+886988106002
+item1.X-ABLabel:台灣手機
+item2.TEL;type=CELL;type=VOICE:+8618321152440
+item2.X-ABLabel:中國手機
 EMAIL;TYPE=WORK,INTERNET:leslie@sensofar.com
 ADR;TYPE=WORK:;;Ctra. BV-1274\, KM 1;Terrassa;;08225;Spain
 URL:https://www.sensofar.com/
