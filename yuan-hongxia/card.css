@@ -40,3 +40,11 @@ h1{font-size:34px;letter-spacing:.2em;padding-left:0;white-space:nowrap}
 .photo{align-self:flex-end;height:262px;margin-top:6px}
 .photo img{object-position:50% 100%;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(to bottom,transparent 0,#000 16%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%),linear-gradient(to bottom,transparent 0,#000 16%);mask-composite:intersect}
 .txt{align-self:center;padding-bottom:20px}
+/* v5 圓形頭像 */
+.hero{align-items:center;padding:28px 18px 28px 22px;gap:24px}
+.photo{flex:0 0 130px;width:130px;height:130px;margin:0;align-self:center;border-radius:50%;padding:4px;border:1.5px solid #c9a75a;box-shadow:0 0 0 6px rgba(201,167,90,.12),0 0 0 7px rgba(201,167,90,.35),0 6px 22px rgba(0,0,0,.35);overflow:visible}
+.photo img{border-radius:50%;object-fit:cover;object-position:50% 20%;-webkit-mask-image:none;mask-image:none}
+.txt{padding-bottom:0}
+h1{font-size:30px;letter-spacing:.18em}.org{font-size:16px;letter-spacing:.2em;margin-top:10px}
+.role{font-size:12px;letter-spacing:.02em}.slogan{font-size:12px;letter-spacing:.03em}
+.studio{font-size:9px;letter-spacing:.26em}.studio span{width:12px}
