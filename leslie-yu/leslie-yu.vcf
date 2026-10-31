@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Yu;Leslie;;;
+FN:Leslie Yu
+ORG:Sensofar Asia
+TITLE:Managing Partner
+TEL;TYPE=CELL,VOICE:+886 988 106 002
+TEL;TYPE=WORK,VOICE:+86 183 2115 2440
+EMAIL;TYPE=WORK,INTERNET:leslie@sensofar.com
+ADR;TYPE=WORK:;;Ctra. BV-1274\, KM 1;Terrassa;;08225;Spain
+URL:https://www.sensofar.com/
+END:VCARD
