@@ -1,0 +1,77 @@
+*{box-sizing:border-box;margin:0}
+body{background:#e9e9e9;font-family:"Open Sans","Segoe UI",Roboto,Arial,"Noto Sans TC","Noto Sans CJK TC","PingFang TC",sans-serif;color:#2b2b2b}
+.wrap{max-width:430px;margin:auto;min-height:100vh;background:#f4f4f4}
+.hero{background:#d42f45;color:#fff;text-align:center;padding:18px 22px 64px}
+.topline{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:600;letter-spacing:.18em}
+.mini{height:20px;width:auto}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#fff;margin-right:6px;vertical-align:1px}
+.avatar{width:112px;height:112px;margin:28px auto 14px;border-radius:50%;padding:3px;background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+h1{font-size:28px;font-weight:700;letter-spacing:.08em}.en{display:block;font-size:17px;font-weight:600;letter-spacing:.02em;opacity:.92;margin-top:2px}
+.role{margin-top:8px;font-size:14px;opacity:.92}
+.org{margin-top:4px;font-size:13px;font-weight:700;letter-spacing:.12em}.org span{display:block;font-size:10px;font-weight:600;letter-spacing:.2em;opacity:.8;margin-top:4px}
+.sheet{position:relative;margin:-40px 14px 0;background:#fff;border-radius:20px;padding:18px 16px 16px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px;border-radius:14px;color:#fff;text-decoration:none;font-size:16px;font-weight:700;margin-bottom:10px}
+.btn svg{width:22px;height:22px;flex:none}
+.btn-line{background:#06C755}.btn-save{background:#d42f45}.btn-save .ic{color:#fff}
+.quick{display:flex;gap:8px;margin:6px 0 14px}
+.quick a,.quick button{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 4px;border:1px solid #e5e5e5;border-radius:14px;background:#fff;color:#2b2b2b;text-decoration:none;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.quick svg{width:24px;height:24px}.quick .ic{color:#d42f45}
+.rows{list-style:none;padding:0;border-top:1px solid #eee}
+.rows li>a,.rows li>div{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid #eee;color:inherit;text-decoration:none}
+.ri{width:38px;height:38px;border-radius:12px;background:#fdecec;display:flex;align-items:center;justify-content:center;flex:none}.ri svg{width:20px;height:20px;color:#d42f45}
+.rows b{display:block;font-size:12px;color:#888;font-weight:600}.v{font-size:15px;color:#2b2b2b}
+.share{display:block;width:100%;margin-top:14px;padding:13px;border:1px dashed #ccc;border-radius:14px;background:none;font:inherit;font-size:14px;color:#555;cursor:pointer}
+footer{text-align:center;font-size:11px;letter-spacing:.3em;color:#aaa;padding:20px 0 28px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:20px;z-index:9}.modal[hidden]{display:none}
+.sheet2,.modal .sheet{position:relative;background:#fff;border-radius:16px;padding:26px 22px 22px;text-align:center;max-width:340px;width:100%;margin:0;box-shadow:none}
+.modal h2{font-size:18px;margin-bottom:14px}.modal img{width:100%;max-width:280px;height:auto}.modal p{font-weight:600;margin-top:10px;color:#07C160}.modal small{display:block;margin-top:6px;color:#777;font-size:12px}
+.x{position:absolute;right:10px;top:6px;border:0;background:none;font-size:28px;color:#999}
+/* 照片左、姓名右（A 的排版） */
+.hero{padding-bottom:62px}
+.idrow{display:flex;align-items:center;gap:24px;margin:26px 2px 0;text-align:left}
+.avatar{flex:0 0 130px;width:130px;height:130px;margin:0;padding:0;background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.22),0 0 0 3px #fff;border:3px solid #d42f45}
+.who{flex:1;min-width:0}
+.who h1{font-size:26px;letter-spacing:0;line-height:1.15;white-space:nowrap}
+.zh{font-size:18px;font-weight:700;letter-spacing:.14em;margin-top:2px}
+.who .role{margin-top:8px;font-size:14px;white-space:nowrap}
+.who .org{margin-top:2px;font-size:12.5px;white-space:nowrap}
+.tag{margin-top:18px;font-size:10.5px;font-weight:600;letter-spacing:.22em;opacity:.85;text-align:center}
+.wid{margin-top:10px;font-size:14px;color:#444}.wid b{font-weight:700;color:#222}
+.wid button{margin-left:6px;border:1px solid #07C160;color:#07C160;background:#fff;border-radius:8px;padding:3px 10px;font:inherit;font-size:13px;cursor:pointer}
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);max-width:340px;width:calc(100% - 40px);background:rgba(30,30,30,.92);color:#fff;padding:12px 16px;border-radius:12px;font-size:14px;line-height:1.5;text-align:center;z-index:20}
+.toast[hidden]{display:none}
+.modal img{max-width:300px}
+/* 永慶房屋 */
+.hero{background:linear-gradient(180deg,#ffbe18 0,#ffbe18 100%);color:#3d3a35}
+.mini{height:29px;width:auto}
+.no1{background:#d42f45;color:#fff;font-size:12px;font-weight:700;letter-spacing:.12em;padding:4px 10px;border-radius:6px}.no1 b{font-size:15px;color:#ffe08a;margin:0 2px}
+.avatar{border-color:#d42f45;box-shadow:0 8px 24px rgba(0,0,0,.18),0 0 0 3px #fff}
+.who h1{font-size:32px;letter-spacing:.12em;color:#2f2c28}
+.who .role{font-size:15px;color:#4a463f;margin-top:6px}
+.who .org{font-size:16px;font-weight:700;color:#d42f45;letter-spacing:.08em;margin-top:4px}
+.who .org span{display:block;font-size:13px;color:#3d3a35;letter-spacing:.06em;margin-top:2px;font-weight:600}
+.tag{color:#fff;background:#4f4f4e;display:inline-block;padding:6px 22px;border-radius:999px;font-size:14px;letter-spacing:.3em;opacity:1;font-weight:600}
+.hero .tag{margin:18px auto 0}.hero{text-align:center}.idrow{text-align:left}
+.quick{gap:10px}
+.v.em{font-size:13.5px;word-break:break-all}
+.ri{background:#fdeef0}
+/* v2：依永慶官網視覺（#ffbe18 黃、#d42f45 紅、#111/#333 字、#f5f6f7 底、圓角 10px／膠囊按鈕、微軟正黑＋Poppins） */
+body{background:#f5f6f7;color:#111;font-family:Poppins,"微軟正黑體","Microsoft JhengHei","PingFang TC","Heiti TC","Noto Sans TC","Noto Sans CJK TC",sans-serif}
+.wrap{background:#f5f6f7}
+.hero{background:#ffbe18;color:#111}
+.who h1{color:#111}.who .role{color:#333}.who .org{color:#d42f45}.who .org span{color:#333}
+.tag{background:#111;color:#fff}
+.no1{background:#d42f45;border-radius:6.1875rem;padding:4px 12px}.no1 b{color:#ffe699}
+.sheet{border-radius:.625rem;box-shadow:0 0 1.25rem #0000000d}
+.btn{border-radius:6.1875rem}
+.btn-save{background:#d42f45}
+.quick a,.quick button{border-radius:.625rem;border-color:#d8d9dc;color:#111}
+.ri{border-radius:.375rem;background:#fff5f5}.ri svg{color:#d42f45}
+.rows b{color:#666}.v{color:#111;font-family:Poppins,"Microsoft JhengHei","Noto Sans CJK TC",sans-serif}
+.rows li>a,.rows li>div{border-color:#eee}
+.share{border-radius:6.1875rem;border-color:#ccc;color:#333}
+footer{color:#999}
+/* 取自 B：聯絡資訊標題＋黃線、深灰頁尾 */
+.info-h{margin:16px 2px 2px;padding-top:10px;border-top:3px solid #ffbe18;font-size:14px;color:#999;letter-spacing:.2em;font-weight:700}
+.info-h+.rows{border-top:0}
+footer{margin-top:22px;background:#4a4a4a;color:#fff;text-align:center;font-size:12px;letter-spacing:.25em;padding:16px 0 22px}
